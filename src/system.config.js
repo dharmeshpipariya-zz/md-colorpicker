@@ -1,6 +1,6 @@
 ﻿(function (global) {
   var map = {
-    'app': 'app',
+    'app': '.',
     'rxjs': 'lib/rxjs',
     '@angular': 'lib/@angular'
   };
@@ -10,7 +10,7 @@
     'app': { main: 'main.js', defaultExtension: 'js' },
     'rxjs': { defaultExtension: 'js' }
   };
-  
+
   var ngPackageNames = [
     'common',
     'compiler',
@@ -23,7 +23,7 @@
     'router-deprecated',
     'upgrade',
   ];
-  
+
   // Individual files (~300 requests):
   function packIndex(pkgName) {
     packages['@angular/' + pkgName] = { main: 'index.js', defaultExtension: 'js' };

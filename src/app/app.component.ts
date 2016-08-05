@@ -3,7 +3,7 @@ import {RouterLink, ROUTER_DIRECTIVES} from "@angular/router";
 
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1> <router-outlet></router-outlet>',
+  template: '<h1>My Colorpicker</h1> <router-outlet></router-outlet>',
   directives: [RouterLink, ROUTER_DIRECTIVES]
 })
 

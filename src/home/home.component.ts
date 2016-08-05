@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import {MdColorpicker} from "../colorpicker/colorpicker";
 
 @Component({
-  selector: 'home-app',
-  template: '<h1>Home</h1>'
+  selector: 'my-app',
+  template: '<h3>Demo</h3><md-colorpicker></md-colorpicker>',
+  directives: [MdColorpicker]
 })
 
 export class HomeComponent { }
